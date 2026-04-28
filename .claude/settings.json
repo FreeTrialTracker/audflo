@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /tmp/cc-agent/66165009/project && npm run build 2>&1 | tail -5",
+            "timeout": 120,
+            "statusMessage": "Building..."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+# AudFlo
+
+AudFlo is a no-code Slack automation builder — the replacement for Slack's legacy Workflow Builder, which was retired on September 26, 2024.
+
+## What AudFlo does
+
+AudFlo provides a visual, drag-and-drop flow editor for building Slack automations without writing code. It is designed for ops managers, HR teams, and support leads who previously relied on Slack's legacy Workflow Builder but lost their automations when Slack retired the platform.
+
+Key capabilities:
+- Visual flow canvas with conditional branching (up to 5 nested levels)
+- 200+ integrations including Google Sheets, Notion, Airtable, Linear, HubSpot, Salesforce, GitHub, Stripe, Zendesk, and Intercom
+- All Slack triggers: new messages, reactions, slash commands, schedules, webhooks, and form submissions
+- Run history with per-step input/output logging and one-click replay
+- First-class variable passing across flow steps
+- Role-based permissions, audit logs, and SOC 2 compliance roadmap
+
+## Why it exists
+
+On September 26, 2024, Slack retired its legacy Workflow Builder and removed "Steps from Apps" — the third-party integration layer used by tools like Zapier. The replacement requires Deno and TypeScript, excluding non-technical users. AudFlo provides a no-code alternative that runs as an external OAuth service, making it resilient to future Slack platform changes.
+
+## Pricing
+
+- Starter: $0/month — 2 active flows, 100 runs/month, all connectors
+- Pro: $12/editor/month — unlimited flows, 10,000 runs, branching, run history
+- Team: Custom — SSO, SCIM, audit logs, multi-workspace, SOC 2
+
+Founding members who join the waitlist before public launch receive 50% off Pro pricing for life.
+
+## Status
+
+- Private beta: Q1 2026
+- Public launch: Q2 2026 (targeted)
+- Microsoft Teams and Discord support: Q3 2026 (planned)
+
+## Built by
+
+Matt (@mattQR), QRLooper. Contact: hello@audflo.com
+
+## Keywords
+
+no-code Slack workflow builder, Slack legacy workflow builder replacement, Slack workflow builder alternative, Steps from Apps replacement, Slack automation without coding, no-code Slack automation tool 2026, Slack workflow builder vs Zapier
